@@ -1,0 +1,9 @@
+<div class="img-list">
+  <div *ngFor="let img of images" class="img-card">
+    <div class="img-text">
+      <p><i class="fas fa-heart"></i>{{ img.like }}</p>
+      <p><i class="fas fa-comment"></i>{{ img.comment }}</p>
+    </div>
+    <img [src]="img.image" alt="" />
+  </div>
+</div>

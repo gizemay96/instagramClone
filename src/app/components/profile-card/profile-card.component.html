@@ -1,0 +1,34 @@
+<div class="profile-card">
+  <div class="card-img">
+    <img [src]="user.profileImg" alt="" />
+  </div>
+  <div class="card-content">
+    <div class="card-header">
+      <h1 class="card-title">{{ user.name }}</h1>
+      <button (click)="follow()" class="btn-follow">
+        {{ btnText }}
+      </button>
+      <button class="btn-arrow"><i class="fas fa-caret-down"></i></button>
+      <p class="dot-icon"><i class="fas fa-ellipsis-h"></i></p>
+    </div>
+    <div class="card-tags">
+      <p class="card-tag">
+        <span class="span-tag">{{ user.posts }}</span> posts
+      </p>
+      <p class="card-tag">
+        <span class="span-tag">{{ user.followers }}</span> followers
+      </p>
+      <p class="card-tag">
+        <span class="span-tag">{{ user.following }}</span> following
+      </p>
+    </div>
+    <div class="card-info">
+      <h4>{{ user.name }}</h4>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text.
+      </p>
+      <a href="#">bit.ly/35Ce3mX</a>
+    </div>
+  </div>
+</div>

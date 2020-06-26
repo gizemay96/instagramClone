@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+  width: 980px;
+
+  .search-item input {
+    width: 210px;
+    height: 30px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    font-family: "Font Awesome 5 Free", "Helvetica";
+    font-weight: 600;
+    color: gray;
+    outline: none;
+
+    &::placeholder {
+      font-size: 12px;
+      text-align: center;
+      color: #acacac;
+    }
+  }
+}
+
+.nav-links ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+
+  .nav-link {
+    padding: 0px 14px;
+  }
+
+  i {
+    font-size: 22px;
+    color: black;
+  }
+}

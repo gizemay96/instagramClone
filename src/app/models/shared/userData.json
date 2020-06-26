@@ -1,0 +1,51 @@
+{  "users" : [
+  
+    { "id":1,
+       "name":"Emily", 
+       "profileImg": "https://images.unsplash.com/photo-1486074051793-e41332bf18fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80", 
+       "posts":186, 
+       "followers":690, 
+       "following":150,
+       "followed":false
+    },
+
+    { "id":2, 
+      "name":"Mike", 
+      "profileImg": "https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80",
+      "posts":874, 
+      "followers":56, 
+      "following": 879,
+      "followed":false
+    },
+
+    { "id":3, 
+      "name":"Dennis", 
+      "profileImg": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80",
+      "posts":279, 
+      "followers":4.556, 
+      "following": 5845,
+      "followed":false
+    },
+
+    { "id":4, 
+      "name":"Helen", 
+      "profileImg": "https://images.unsplash.com/photo-1523264939339-c89f9dadde2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80",
+      "posts":564, 
+      "followers":956, 
+      "following":789,
+      "followed":false
+    },
+
+    { "id":5, 
+      "name":"Linda", 
+      "profileImg": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80",
+      "posts":210, 
+      "followers":1.597, 
+      "following":480,
+      "followed":false
+    }
+
+  ]
+
+}
+
