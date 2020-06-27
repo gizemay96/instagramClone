@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output , EventEmitter  } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-profile-card',
@@ -13,12 +13,12 @@ export class ProfileCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
   follow () {
     this.user.followed = true
-    this.btnText = "Following"
-    
+    this.btnText = "Following"  
   }
 
 }
